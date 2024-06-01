@@ -1,0 +1,21 @@
+<section class="mb-4 mt-4">
+    <app-star [title]="'contact Me'" [customColor]="'var(--main-color)'"></app-star>
+    <form action="" class="w-50 mx-auto mt-4 ">
+        
+        <!-- userName -->
+        <label for="userName" [class.__top]="!userName.length" class="position-relative top-0">userName :</label>
+        <input id="userName" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userName" type="text" placeholder="userName" name="userName">
+        <!-- userAge -->
+        <label for="userAge" [class.__top]="!userAge.length" class="position-relative top-0">userAge :</label>
+        <input id="userAge" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userAge" type="text" placeholder="userAge" name="userAge">
+        <!-- userEmail -->
+        <label for="userEmail" [class.__top]="!userEmail.length" class="position-relative top-0">userEmail :</label>
+        <input id="userEmail" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userEmail" type="text" placeholder="userEmail" name="userEmail">
+        <!-- userPassword -->
+        <label for="userPassword" [class.__top]="!userPassword.length" class="position-relative top-0">userPassword :</label>
+        <input id="userPassword" class="form-control border-0 border-bottom py-3 position-relative" [(ngModel)]="userPassword" type="password" placeholder="userPassword" name="userPassword">
+        <!--  -->
+        <button class="btn btn-primary mt-4">Send Massage</button>
+        
+    </form>
+</section>

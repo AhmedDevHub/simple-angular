@@ -1,0 +1,10 @@
+.about{
+    background-color: var(--second-color);
+}
+.margin{
+    padding: 0px 200px;
+}
+p{
+    text-align: justify;
+    
+}

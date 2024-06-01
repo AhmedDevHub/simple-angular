@@ -1,0 +1,9 @@
+nav {
+    transition:0.6s padding;
+}
+.active{
+    border-radius: 6px ;
+}
+.nav-link{
+    transition: border-color .2s ease-in-out !important;
+}
